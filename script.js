@@ -91,20 +91,8 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-// Function to prompt user for password options
-function getPasswordOptions() {
-
-}
-
-// Function for getting a random element from an array
-function getRandom(arr) {
-
-}
-
-// Function to generate password with user input
+// Function to generate random password with user input
 function generatePassword() {
-  // console.log("Hey! You clicked the button!");
-
   var password = "";
   for(var i = 0; i < characterLength; i++) {
     var randomIndex = Math.floor(Math.random() * choiceArr.length);
